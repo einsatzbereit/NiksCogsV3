@@ -18,20 +18,24 @@
 </p>
 
 ---
+
 # Installation
 
 >`[p]` is your own prefix.
 
-`[p]repo add nikscogs https://github.com/nigl93/NiksCogsV3`    
-
-`[p]cog install nikscogs <cog_name>`
+```cmd
+[p]repo add nikscogs https://github.com/nigl93/NiksCogsV3
+[p]cog install nikscogs <cog_name>
+```
 
 >Replace `<cog_name`> with the cog you wish to insall.
 
 # Cogs
 
-| Cog | Description |
-| --- | ----------- |
+| Cog    | Description                                      |
+| ------ | ------------------------------------------------ |
+| Embeds | Commands to format and send embeds as a message. |
 
 # Support
+
 If you have an issue with one of my cogs, please raise an issue on GitHub
