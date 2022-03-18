@@ -40,7 +40,7 @@ class Embeds(commands.Cog):
         If you want to attach a picture just add it to the message.
 
         Examples:
-            `[p]sendembed "Title" "Text"
+            `[p]sendembed "Title" "Text"`
             `[p]sendembed "📰 Super awesome news" "This is the body of the embed.\n> This is a quote."`
         """
 
