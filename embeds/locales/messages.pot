@@ -1,0 +1,45 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-03-18 14:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: redgettext 3.3\n"
+
+#: embeds.py:12
+msgid ""
+"I attempted to do something that Discord denied me permissions for.\n"
+"> Your command failed to successfully complete."
+msgstr ""
+
+#: embeds.py:21
+#, docstring
+msgid "A collection of embed utilities."
+msgstr ""
+
+#: embeds.py:28
+#, docstring
+msgid "Nothing to delete."
+msgstr ""
+
+#: embeds.py:35
+#, docstring
+msgid ""
+"Send an embed to the current channel.\n"
+"\n"
+"        The embed will contain a title `title` and body with `text`.\n"
+"        All normal discord formatting will work inside the embed.\n"
+"        Do not forget to put every argument into `\" \"`.\n"
+"        If you want to attach a picture just add it to the message.\n"
+"\n"
+"        Examples:\n"
+"            `[p]sendembed \"Title\" \"Text\"\n"
+"            `[p]sendembed \"📰 Super awesome news\" \"This is the body of the embed.\n"
+"> This is a quote.\"`\n"
+"        "
+msgstr ""

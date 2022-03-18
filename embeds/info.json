@@ -1,0 +1,12 @@
+{
+    "author": [
+        "Nigl#0001"
+    ],
+    "description": "Commands to format and send embeds as a message.",
+    "hidden": false,
+    "install_msg": "🐲 Thanks for installing the Embed module!",
+    "tags": [
+        "embed",
+        "message"
+    ]
+}
