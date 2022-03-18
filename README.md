@@ -7,7 +7,13 @@
 
 <p align="center">
   <a href="https://github.com/Cog-Creators/Red-DiscordBot">
-      <img src="https://img.shields.io/badge/Discord-Red%20Bot-red.svg">
+    <img src="https://img.shields.io/badge/Discord-Red%20Bot-red.svg">
+  </a>
+  <a href="https://github.com/psf/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black">
+  </a>
+  <a href="https://www.codefactor.io/repository/github/nigl93/nikscogsv3">
+    <img src="https://www.codefactor.io/repository/github/nigl93/nikscogsv3/badge" alt="CodeFactor">
   </a>
 </p>
 
