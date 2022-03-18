@@ -28,7 +28,7 @@
 [p]cog install nikscogs <cog_name>
 ```
 
->Replace `<cog_name`> with the cog you wish to insall.
+>Replace `<cog_name>` with the cog you wish to insall.
 
 # Cogs
 
