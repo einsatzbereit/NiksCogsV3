@@ -19,7 +19,7 @@ body:
     label: "Cog name"
     description: "From which cog does the command come from?"
     options:
-      - TDB
+      - sendembed
   validations:
     required: true
 - type: input
