@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-03-18 14:55+0100\n"
+"POT-Creation-Date: 2022-04-19 07:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,23 +11,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: redgettext 3.3\n"
 
-#: embeds.py:12
+#: embeds.py:13
 msgid ""
 "I attempted to do something that Discord denied me permissions for.\n"
 "> Your command failed to successfully complete."
 msgstr ""
 
-#: embeds.py:21
+#: embeds.py:22
 #, docstring
 msgid "A collection of embed utilities."
 msgstr ""
 
-#: embeds.py:28
-#, docstring
-msgid "Nothing to delete."
-msgstr ""
-
-#: embeds.py:35
+#: embeds.py:32
 #, docstring
 msgid ""
 "Send an embed to the current channel.\n"

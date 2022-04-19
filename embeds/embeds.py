@@ -1,13 +1,14 @@
 import logging
 
 import discord
-
-from redbot.core import commands, checks
+from redbot.core import checks, commands
 from redbot.core.i18n import Translator, cog_i18n
 
-log = logging.getLogger("red.embeds")
+from .events import EmbedsEvents
 
 _ = Translator("Embeds", __file__)
+log = logging.getLogger("red.niks-cogs.embeds")
+
 
 GENERIC_FORBIDDEN = _(
     "I attempted to do something that Discord denied me permissions for."
@@ -17,16 +18,12 @@ GENERIC_FORBIDDEN = _(
 
 
 @cog_i18n(_)
-class Embeds(commands.Cog):
+class Embeds(EmbedsEvents, commands.Cog):
     """A collection of embed utilities."""
 
     def __init__(self, bot):
         super().__init__()
         self.bot = bot
-
-    async def red_delete_data_for_user(self, **kwargs):
-        """Nothing to delete."""
-        return
 
     @commands.command()
     @commands.guild_only()
@@ -44,9 +41,7 @@ class Embeds(commands.Cog):
             `[p]sendembed "📰 Super awesome news" "This is the body of the embed.\n> This is a quote."`
         """
 
-        embed = discord.Embed(
-            title=title, description=text, color=await ctx.embed_color()
-        )
+        embed = discord.Embed(title=title, description=text, color=await ctx.embed_color())
 
         if ctx.message.attachments:
             embed.set_image(url=ctx.message.attachments[0].url)

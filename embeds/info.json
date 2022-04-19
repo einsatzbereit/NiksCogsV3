@@ -2,11 +2,27 @@
     "author": [
         "Nigl#0001"
     ],
+    "disabled": false,
+    "end_user_data_statement": "This does not store any user data.",
     "description": "Commands to format and send embeds as a message.",
     "hidden": false,
-    "install_msg": "🐲 Thanks for installing the Embed module!",
+    "install_msg": "Thanks for installing the embed module!",
+    "min_bot_version": "3.3.12",
+    "min_python_version": [
+        3,
+        7,
+        2
+    ],
+    "name": "Embeds",
+    "permissions": [
+        "manage_messages"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "short": "Emebds",
     "tags": [
         "embed",
         "message"
-    ]
+    ],
+    "type": "COG"
 }

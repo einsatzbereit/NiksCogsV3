@@ -22,3 +22,12 @@ python -m redgettext -D <file>
 ```
 
 * Open messages.pot with [Poedit](https://poedit.net/)
+
+## Refactor
+
+```bash
+#black
+python -m black . --line-length=120
+#pep8
+python -m pyflakes .
+```

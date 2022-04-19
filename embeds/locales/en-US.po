@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-18 14:55+0100\n"
-"PO-Revision-Date: 2022-03-18 14:57+0100\n"
+"POT-Creation-Date: 2022-04-19 07:25+0200\n"
+"PO-Revision-Date: 2022-04-19 07:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Generated-By: redgettext 3.3\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: embeds.py:12
+#: embeds.py:13
 msgid ""
 "I attempted to do something that Discord denied me permissions for.\n"
 "> Your command failed to successfully complete."
@@ -22,29 +22,11 @@ msgstr ""
 "I attempted to do something that Discord denied me permissions for.\n"
 "> Your command failed to successfully complete."
 
-#: embeds.py:21
+#: embeds.py:22
 msgid "A collection of embed utilities."
 msgstr "A collection of embed utilities."
 
-#: embeds.py:28
-msgid "Nothing to delete."
-msgstr "Nothing to delete."
-
-#: embeds.py:35
-#| msgid ""
-#| "Send an embed to the current channel.\n"
-#| "\n"
-#| "        The embed will contain a title `title` and body with `text`.\n"
-#| "        All normal discord formatting will work inside the embed.\n"
-#| "        Do not forget to put every argument into `\" \"`.\n"
-#| "        If you want to attach a picture just add it to the message.\n"
-#| "\n"
-#| "        Examples:\n"
-#| "            `[p]sendembed \"Title\" \"Text\"\n"
-#| "            `[p]sendembed \"📰 Super awesome news\" \"This is the body of "
-#| "the embed.\n"
-#| "> This is a quote.\"`\n"
-#| "        "
+#: embeds.py:32
 msgid ""
 "Send an embed to the current channel.\n"
 "\n"
@@ -73,3 +55,6 @@ msgstr ""
 "embed.\n"
 "> This is a quote.\"`\n"
 "        "
+
+#~ msgid "Nothing to delete."
+#~ msgstr "Nothing to delete."
