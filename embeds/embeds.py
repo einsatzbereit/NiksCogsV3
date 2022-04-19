@@ -41,7 +41,9 @@ class Embeds(EmbedsEvents, commands.Cog):
             `[p]sendembed "📰 Super awesome news" "This is the body of the embed.\n> This is a quote."`
         """
 
-        embed = discord.Embed(title=title, description=text, color=await ctx.embed_color())
+        embed = discord.Embed(
+            title=title, description=text, color=await ctx.embed_color()
+        )
 
         if ctx.message.attachments:
             embed.set_image(url=ctx.message.attachments[0].url)
