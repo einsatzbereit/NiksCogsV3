@@ -12,8 +12,8 @@
   <a href="https://github.com/psf/black">
     <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black">
   </a>
-  <a href="https://www.codefactor.io/repository/github/nigl93/nikscogsv3">
-    <img src="https://www.codefactor.io/repository/github/nigl93/nikscogsv3/badge" alt="CodeFactor">
+  <a href="https://www.codefactor.io/repository/github/einsatzbe/nikscogsv3">
+    <img src="https://www.codefactor.io/repository/github/einsatzbereit/nikscogsv3/badge" alt="CodeFactor">
   </a>
 </p>
 
@@ -24,7 +24,7 @@
 >`[p]` is your own prefix.
 
 ```cmd
-[p]repo add nikscogs https://github.com/nigl93/NiksCogsV3
+[p]repo add nikscogs https://github.com/einsatzbereit/NiksCogsV3
 [p]cog install nikscogs <cog_name>
 ```
 
